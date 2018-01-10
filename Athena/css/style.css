@@ -472,7 +472,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  height: 870px;
+  height: 480px;
   /* width: 900px; */
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../img/codebuildhack.jpg) center top no-repeat;
   margin-bottom: 10px;
