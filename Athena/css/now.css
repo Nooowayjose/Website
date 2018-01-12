@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Prelaoder */
-#preloader {
+/* #preloader {
   position: fixed;
   left: 0;
   top: 0;
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-}
+} */
 
 /* Back to top button */
 .back-to-top {
@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: background 0.5s;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-}
+} */
 
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
@@ -111,9 +111,9 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo h1 {
     font-size: 26px;
   }
-  #header #logo img {
+  /* #header #logo img {
     max-height: 40px;
-  }
+  } */
 }
 
 #header.header-fixed {
