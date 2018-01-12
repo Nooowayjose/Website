@@ -506,7 +506,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #about .about-container .title {
-    
     padding-top: 15px;
   }
 }
