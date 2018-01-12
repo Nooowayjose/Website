@@ -102,10 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#header #logo img {
-  padding: 0;
-  margin: 0;
-}
+
 
 @media (max-width: 768px) {
   #header #logo h1 {
@@ -116,12 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   } */
 }
 
-#header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
-  padding: 20px 0;
-  height: 72px;
-  transition: all 0.5s;
-}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -129,8 +121,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   display: table;
   width: 100%;
-  height: 40em;
-  background: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=2250&q=80) top center fixed;
+  height: 30em;
+  /* no-repeat center center fixed */
+  background: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=2250&q=80) no-repeat center center fixed;
   background-size: cover;
 }
 
