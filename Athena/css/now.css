@@ -143,13 +143,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
   body{
-    background: aqua;
+    background: RGB(176, 224, 230)
   }
 
   #hero{
     display: table;
     width: 100%;
-    height:30rem;
+    height:40rem;
     background: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=2250&q=80) no-repeat center top;
     background-size: cover;
     /* background-size: contain; */
