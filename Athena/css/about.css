@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   display: table;
   width: 100%;
-  height: 30rem;
+  height: 100vh;
   background: url(https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=1993&q=80) top center fixed;
   background-size: cover;
 }
@@ -140,8 +140,8 @@ h1, h2, h3, h4, h5, h6 {
   #hero{
     display: table;
     width: 100%;
-    height:40rem;
-    background: url(https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=1993&q=80) no-repeat center top;
+    height:100vh;
+    background: url(https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?auto=format&fit=crop&w=1993&q=80) top center fixed;
     background-size: cover;
     /* background-size: contain; */
   }
@@ -487,6 +487,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
+
+
 #call-to-action .cta-title {
   color: #fff;
   font-size: 28px;
@@ -532,6 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 80px 0;
 }
+
 
 #blog .cta-title {
   color: #fff;
