@@ -136,9 +136,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media screen and (max-width: 768px) {
-  body{
-    background: RGB(176, 224, 230)
-  }
 
   #hero{
     display: table;
@@ -146,6 +143,8 @@ h1, h2, h3, h4, h5, h6 {
     height:40rem;
     background-size: cover;
     /* background-size: contain; */
+    background: url(https://images.unsplash.com/photo-1485846299386-f367c81034d8?auto=format&fit=crop&w=2576&q=80)   no-repeat center top;
+
   }
 }
 
