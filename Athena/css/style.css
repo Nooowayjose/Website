@@ -506,6 +506,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #about .about-container .title {
+    
     padding-top: 15px;
   }
 }
@@ -649,6 +650,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   padding: 80px 0;
 }
+
+/* ORDER MATTERS HERE */
+
+@media screen and (max-width: 768px) {
+
+  #call-to-action{
+    display: table;
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://images.unsplash.com/photo-1484910292437-025e5d13ce87?auto=format&fit=crop&w=1688&q=80) no-repeat center top;
+    background-size: cover;
+    /* background-size: contain; */
+  }
+}
+
 
 #call-to-action .cta-title {
   color: #fff;
