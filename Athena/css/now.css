@@ -69,6 +69,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+
+/* hacks */
+/* #lel:hover{
+  background-color: blue;
+
+} */
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -142,9 +150,9 @@ h1, h2, h3, h4, h5, h6 {
 /* ORDER MATTERS HERE */
 
 @media screen and (max-width: 768px) {
-  body{
+  /* body{
     background: RGB(176, 224, 230)
-  }
+  } */
 
   #hero{
     display: table;
