@@ -1,3 +1,3 @@
 #Website
 
-My personal website where I share ideas and thoughts to the incredibly weird, but amazing internet.
+Made with a bunch of love, coffee, and coffffeeeeeeeeeeeeeeeeeeeeeeEEEEEeeeee
